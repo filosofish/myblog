@@ -23,8 +23,8 @@ export default defineAstroPaperConfig({
     showArchives: true,
     showBackButton: true,
     editPost: {
-      enabled: false,
-      url: "https://github.com/satnaing/astro-paper/edit/main/",
+      enabled: true,
+      url: "https://github.com/filosofish/myblog/edit/main/",
     },
     search: "pagefind",
   },
