@@ -2,14 +2,14 @@ import { defineAstroPaperConfig } from "./src/types/config";
 
 export default defineAstroPaperConfig({
   site: {
-    url: "https://filosofish.com/",
-    title: "Filosofish",
-    description: "Sebuah journal diary, cerita, ide, narasi, dan catatan tentang perjalanan.",
-    author: "Webillian",
-    profile: "https://webillian.id",
+    url: "https://astro-paper.pages.dev/",
+    title: "AstroPaper",
+    description: "A minimal, responsive and SEO-friendly Astro blog theme.",
+    author: "Sat Naing",
+    profile: "https://satna.ing",
     ogImage: "default-og.jpg",
     lang: "en",
-    timezone: "Asia/Jakarta",
+    timezone: "Asia/Bangkok",
     dir: "ltr",
   },
   posts: {
