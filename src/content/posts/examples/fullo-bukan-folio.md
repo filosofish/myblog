@@ -8,8 +8,7 @@ tags:
   - Cerita
   - Narasi
 
-description: This is the example description of the example post.
-
+description: Pagi itu Matahari sedikit memancarkan teriknya ketika aku lihat jam dinding menunjukkan pukul 9 pagi. Karena itu hari minggu aku sedikit bermalas malasan.
 ---
 
 Pagi itu Matahari sedikit memancarkan teriknya ketika aku lihat jam dinding menunjukkan pukul 9 pagi. Karena itu hari minggu aku sedikit bermalas malasan. Seperti biasa aku membuka hari dengan santai terlebih dahulu menyeruput kopi, waktu itu masih SMA, walaupun sudah merokok tapi diam-diam hehehe, jadi saat itu belum ada rokok.
