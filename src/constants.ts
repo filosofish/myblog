@@ -1,7 +1,5 @@
 import type { GiscusProps } from "@giscus/react";
 
-...
-
 export const GISCUS: GiscusProps = {
   repo: "https://github.com/filosofish/myblog",
   repoId: "[ENTER REPO ID HERE]",
