@@ -19,14 +19,15 @@ import {
 import { transformerFileName } from "./src/utils/transformers/fileName";
 import config from "./astro-paper.config";
 
-import react from "@astrojs/react";
-
 export default defineConfig({
   site: config.site.url,
-  integrations: [mdx(), sitemap({
-    filter: page =>
-      config.features?.showArchives !== false || !page.endsWith("/archives/"),
-  }), react()],
+  integrations: [
+    mdx(),
+    sitemap({
+      filter: page =>
+        config.features?.showArchives !== false || !page.endsWith("/archives/"),
+    }),
+  ],
   i18n: {
     locales: ["en"],
     defaultLocale: "en",
