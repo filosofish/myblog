@@ -8,7 +8,7 @@ export default defineAstroPaperConfig({
     author: "Webillian",
     profile: "https://webillian.id",
     ogImage: "default-og.jpg",
-    lang: "en",
+    lang: "id",
     timezone: "Asia/Jakarta",
     dir: "ltr",
   },
