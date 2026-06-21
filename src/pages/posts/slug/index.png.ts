@@ -152,21 +152,7 @@ export const GET: APIRoute = async ({ props }) => {
   const svg = await satori(ogImageTree, {
     width: 1200,
     height: 630,
-    embedFont: true,
-    fonts: [
-      {
-        name: "Google Sans Code",
-        data: regularData,
-        weight: 400,
-        style: "normal",
-      },
-      {
-        name: "Google Sans Code",
-        data: (typeof boldData !== "undefined" ? (boldData as any) : new Uint8Array()),
-        weight: 700,
-        style: "normal",
-      },
-    ],
+    fonts: [],
   });
 
   const pngBuffer = await sharp(Buffer.from(svg)).png().toBuffer();
