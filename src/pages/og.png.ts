@@ -1,3 +1,4 @@
+/// <reference types="astro/client" />
 import type { APIRoute } from "astro";
 import satori from "satori";
 import sharp from "sharp";
