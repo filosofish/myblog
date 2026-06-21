@@ -13,13 +13,6 @@ const t = useTranslations(Astro.currentLocale);
 const currentYear = new Date().getFullYear();
 ---
 
-<script
-      src="https://giscus.app/client.js"
-      data-repo="[ENTER REPO HERE]"
-      data-repo-id="[ENTER REPO ID HERE]"
-      data-category="[ENTER CATEGORY NAME HERE]"
-      data-category-id="[ENTER CATEGORY ID HERE]"></script>
-
 <footer
   class:list={["app-layout", { "mt-auto": !noMarginTop }, className]}
   {...attrs}

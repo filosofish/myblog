@@ -2,19 +2,19 @@ import { defineAstroPaperConfig } from "./src/types/config";
 
 export default defineAstroPaperConfig({
   site: {
-    url: "https://filosofish.com",
-    title: "Filosofish",
-    description: "Sebuah journal diary, cerita, ide, narasi, dan catatan tentang perjalanan.",
-    author: "Webillian",
-    profile: "https://webillian.id",
+    url: "https://astro-paper.pages.dev/",
+    title: "AstroPaper",
+    description: "A minimal, responsive and SEO-friendly Astro blog theme.",
+    author: "Sat Naing",
+    profile: "https://satna.ing",
     ogImage: "default-og.jpg",
-    lang: "id",
-    timezone: "Asia/Jakarta",
+    lang: "en",
+    timezone: "Asia/Bangkok",
     dir: "ltr",
   },
   posts: {
-    perPage: 10,
-    perIndex: 10,
+    perPage: 4,
+    perIndex: 4,
     scheduledPostMargin: 15 * 60 * 1000,
   },
   features: {
@@ -24,15 +24,15 @@ export default defineAstroPaperConfig({
     showBackButton: true,
     editPost: {
       enabled: true,
-      url: "https://github.com/filosofish/myblog/edit/main/",
+      url: "https://github.com/satnaing/astro-paper/edit/main/",
     },
     search: "pagefind",
   },
   socials: [
-    { name: "github",   url: "https://github.com/filosofish/myblog" },
-    { name: "x",        url: "https://x.com/webillian" },
-    { name: "linkedin", url: "https://www.linkedin.com/in/webillian/" },
-    { name: "mail",     url: "mailto:filosofish.com@gmail.com" },
+    { name: "github",   url: "https://github.com/satnaing/astro-paper" },
+    { name: "x",        url: "https://x.com/username" },
+    { name: "linkedin", url: "https://www.linkedin.com/in/username/" },
+    { name: "mail",     url: "mailto:yourmail@gmail.com" },
   ],
   shareLinks: [
     { name: "whatsapp", url: "https://wa.me/?text=" },
