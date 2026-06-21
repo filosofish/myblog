@@ -3,7 +3,7 @@ import type { GiscusProps } from "@giscus/react";
 ...
 
 export const GISCUS: GiscusProps = {
-  repo: "[ENTER REPO HERE]",
+  repo: "https://github.com/filosofish/myblog",
   repoId: "[ENTER REPO ID HERE]",
   category: "[ENTER CATEGORY NAME HERE]",
   categoryId: "[ENTER CATEGORY ID HERE]",
