@@ -4,7 +4,7 @@ export default defineAstroPaperConfig({
   site: {
     url: "https://filosofish.com",
     title: "Filosofish",
-    description: "A minimal, responsive and SEO-friendly Astro blog theme.",
+    description: "This is a personal blog about stories, ideas, narratives, opinions, quirks, outlets, and a record of life's journey",
     author: "Webillian",
     profile: "https://webillian.id",
     ogImage: "default-og.jpg",
