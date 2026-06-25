@@ -15,6 +15,7 @@ import BackButton from "./_components/BackButton.astro";
 import BackToTopButton from "./_components/BackToTopButton.astro";
 import AdjacentPostNav from "./_components/AdjacentPostNav.astro";
 import config from "@/config";
+import GiscusComment from '../components/GiscusComment.astro';
 
 export async function getStaticPaths() {
   const posts = await getCollection("posts");
@@ -159,21 +160,7 @@ const ogImage = ogImageUrl
 
     <AdjacentPostNav {prevPost} {nextPost} />
 
-<script src="https://giscus.app/client.js"
-        data-repo="filosofish/myblog"
-        data-repo-id="R_kgDOS_Xf6A"
-        data-category="General"
-        data-category-id="DIC_kwDOS_Xf6M4C_m9w"
-        data-mapping="url"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="light"
-        data-lang="id"
-        crossorigin="anonymous"
-        async>
-</script>
+    <GiscusComment />
 
   </main>
   <Footer />
